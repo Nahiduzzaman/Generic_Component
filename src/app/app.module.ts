@@ -15,7 +15,7 @@ import { ShowListModule } from './show-list/show-list.module';
   ],
   providers: [
     {
-        provide: 'ShowList',
+        provide: 'IShowList',
         useClass: AppService
     },
     AppService

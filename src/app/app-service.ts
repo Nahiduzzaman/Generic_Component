@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
-import { ShowList } from './show-list/contractors/show-list';
+import { IShowList } from './show-list/contractors/show-list';
 
 @Injectable()
-export class AppService implements ShowList{
+export class AppService implements IShowList{
 
     showList(): any[]{
         let namesList: string[] = ["rafi", "rhin"];

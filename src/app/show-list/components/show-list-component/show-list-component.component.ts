@@ -1,5 +1,5 @@
 import { Component, OnInit, Inject } from '@angular/core';
-import { ShowList } from '../../contractors/show-list';
+import { IShowList } from '../../contractors/show-list';
 
 @Component({
   selector: 'app-show-list-component',
@@ -8,7 +8,7 @@ import { ShowList } from '../../contractors/show-list';
 })
 export class ShowListComponentComponent implements OnInit {
 
-  constructor(@Inject('ShowList') private showList) { }
+  constructor(@Inject('IShowList') private showList) { }
 
   list: any[];
   

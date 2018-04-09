@@ -1,3 +1,3 @@
-export interface ShowList {
+export interface IShowList {
     showList(): any[];
 }
