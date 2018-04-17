@@ -6,10 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./foo-list.component.css']
 })
 export class FooListComponent implements OnInit {
-
   constructor() { }
-
+  
   ngOnInit() {
+  console.log("hello");
+    
   }
 
 }

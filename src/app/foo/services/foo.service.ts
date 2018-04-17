@@ -1,4 +1,4 @@
-import { IShowList } from './../show-list/contractors/show-list';
+import { IShowList } from './../../show-list/contractors/show-list';
 import { Injectable } from '@angular/core';
 
 @Injectable()
