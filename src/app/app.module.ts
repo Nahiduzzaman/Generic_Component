@@ -9,7 +9,7 @@ import { ShowListModule } from './show-list/show-list.module';
 
 const appRoutes: Routes = [
   {
-      path        : 'component',
+      path        : '',
       loadChildren: './foo/foo.module#FooModule'
   },
   {

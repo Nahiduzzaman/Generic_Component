@@ -30,4 +30,4 @@ const routes = [
 
   exports:[BarListComponent]
 })
-export class FooModule { }
+export class BarModule { }
